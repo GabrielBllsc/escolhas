@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <title>Escolhas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>É uma manhã ensolarada.<br>Você acorda assustado, rudemente despertado pelo toque de seu celular.<br>Você tem uma decisão a fazer:</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a escola?</button>
+            <button class="btn-proximo" data-proximo="2">Voltar a dormir?</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Calmamente você se prepara para a escola, porém acaba se atrasando um pouco, nem teve tempo de tomar café...</p>
+            <button class="btn-proximo" data-proximo="3">Comer mesmo assim.</button>
+            <button class="btn-proximo" data-proximo="4">Correr para a escola.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No outro dia, decide ir para compensar. Ao chegar, seus amigos lhe contam que houve uma prova importantíssima no dia anterior e você a havia perdido.
+
+                Seus professores não tiveram misericórdia, e você foi reprovado.</p>
+            <button class="btn-proximo" data-proximo="0">Reiniciar.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você come rapidamente mas acaba se distraindo no celular e, quando percebeu, tinha perdido a primeira aula. Ir mesmo assim?</p>
+            <button class="btn-proximo" data-proximo="5">Sim</button>
+            <button class="btn-proximo" data-proximo="6">Não</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você se cansa, mas consegue chegar pontualmente na escola.<br>Algumas garotas de sua classe estão agitadas, já seus amigos, do outro lado da sala - no fundão -, estão calmos como sempre.</p>
+            <button class="btn-proximo" data-proximo="7">Falar com suas colegas de turma</button>
+            <button class="btn-proximo" data-proximo="8">Falar com seus amigos</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você corre até a escola, e entra no limite do atraso, mas entra.<br>Surpreendentemente, toda a escola está silenciosa. Ao entrar em sua sala você entende o motivo: é dia de prova, a prova mais importante de todo o ensino médio, seu desempenho definirá se passará de ano, ou não.<br>Você não se preparou nem um pouco, mas teve um pouco de sorte, e passou raspando na prova.</p>
+            <button class="btn-proximo" data-proximo="0">Reiniciar</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você decide ir jogar em seu PC até o fim do dia.<br>No outro dia, decide ir para compensar. Ao chegar, seus amigos lhe contam que houve uma prova importantíssima no dia anterior e você a havia perdido.<br>Seus professores ouviram a sua justificativa e decidiram lhe dar uma segunda chance.</p>
+            <button class="btn-proximo" data-proximo="0">Reiniciar</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você timidamente vai falar com suas colegas de turma, elas lhe falam que a escola anunciou que hoje seria o dia da prova final para passar de ano.<br>Elas lhe convidam para estudar junto delas nestes poucos minutos que restam.<br>Você estuda e faz a prova com facilidade. Não obstante, foi o melhor colocado da escola.</p>
+            <button class="btn-proximo" data-proximo="0">Reiniciar</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você diz oi aos seus amigos, a aula está vaga e eles lhe convidam para jogar.<br>Os minutos passam e, após estressantes partidas do jogo, a aula termina. O professor coordenador entra na sala e diz que hoje será o dia da avaliação final do ensino médio.<br>Você faz a prova, mas sua mente está cansada por causa dos jogos, sua nota final é vermelha e você falha no exame.</p>
+            <button class="btn-proximo" data-proximo="0">Reiniciar</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
